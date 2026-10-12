@@ -1,0 +1,91 @@
+<body>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Georgia,'Times New Roman',serif;color:#1e2b22;background:#f6f9f4;line-height:1.7}
+a{text-decoration:none;color:inherit}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+header{background:#fff;border-bottom:1px solid #dbe8d6;position:sticky;top:0;z-index:5}
+.nav{display:flex;justify-content:space-between;align-items:center;height:64px}
+.logo{font-size:24px;font-weight:700;color:#2f7a43}
+.nav a.l{margin-left:22px;font-family:Arial,sans-serif;font-size:14px;color:#4b5f50}
+.hero{background:linear-gradient(rgba(20,45,28,.6),rgba(20,45,28,.6)),url('https://loremflickr.com/1600/800/houseplant,indoor?lock=11') center/cover;color:#fff;padding:110px 0;text-align:center}
+.hero h1{font-size:46px;line-height:1.2;margin-bottom:14px}
+.hero p{max-width:700px;margin:0 auto 26px;font-size:18px}
+.btn{display:inline-block;background:#2f7a43;color:#fff;padding:13px 30px;border-radius:6px;font-family:Arial,sans-serif;font-size:15px}
+.sec{padding:64px 0}
+.sec h2{font-size:32px;text-align:center;margin-bottom:10px}
+.sub{text-align:center;max-width:720px;margin:0 auto 38px;color:#5a6e5f}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.card{background:#fff;border:1px solid #dbe8d6;border-radius:10px;overflow:hidden}
+.card img{width:100%;height:190px;object-fit:cover;display:block}
+.card div{padding:20px}
+.card h3{font-size:20px;margin-bottom:8px}
+.card p{font-size:15px;color:#4b5f50}
+.alt{background:#fff;border-top:1px solid #dbe8d6;border-bottom:1px solid #dbe8d6}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;margin-bottom:54px}
+.split:last-child{margin-bottom:0}
+.split img{width:100%;border-radius:10px;height:320px;object-fit:cover}
+.split h3{font-size:26px;margin-bottom:10px}
+.split p{color:#4b5f50;margin-bottom:12px}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;text-align:center}
+.steps div{padding:22px;background:#fff;border-radius:10px;border:1px solid #dbe8d6}
+.steps h4{font-size:18px;margin-bottom:6px}
+.steps p{font-size:14px;color:#4b5f50}
+.cta{background:#2f7a43;color:#fff;text-align:center;padding:70px 0}
+.cta h2{font-size:34px;margin-bottom:10px}
+.cta p{max-width:640px;margin:0 auto 24px}
+.cta .btn{background:#fff;color:#2f7a43}
+footer{background:#1e2b22;color:#c9d8cc;text-align:center;padding:26px 0;font-family:Arial,sans-serif;font-size:14px}
+@media(max-width:800px){.grid,.steps,.split{grid-template-columns:1fr}.hero h1{font-size:32px}.nav a.l{display:none}}
+</style>
+
+<header><div class="wrap nav"><a class="logo" href="#">VegaRise</a><nav><a class="l" href="#plants">Plants</a><a class="l" href="#guide">Guide</a><a class="l" href="#care">Care Tips</a><a class="l" href="#join">Contact</a></nav></div></header>
+
+<section class="hero"><div class="wrap">
+<h1>Take The Next Step</h1>
+<p>Welcome to VegaRise, a beginner-friendly guide to indoor plants. Learn which houseplants suit your home, how much light and water they need, and how to keep them healthy. Discover New Options for a greener living space.</p>
+<a class="btn" href="#plants">Browse Houseplants</a>
+</div></section>
+
+<section class="sec" id="plants"><div class="wrap">
+<h2>Houseplants For Every Home</h2>
+<p class="sub">From dark corners to sunny windowsills, there is an indoor plant for almost every room. These short guides cover the most popular types and what each one needs.</p>
+<div class="grid">
+<div class="card"><img src="https://loremflickr.com/600/400/snakeplant?lock=21" alt="Snake plant in a pot"><div><h3>Explore New Choices</h3><p>Snake plants and ZZ plants tolerate low light and irregular watering, which makes them ideal first plants.</p></div></div>
+<div class="card"><img src="https://loremflickr.com/600/400/pothos,plant?lock=22" alt="Pothos vine on a shelf"><div><h3>Something New Awaits</h3><p>Pothos grows quickly in trailing vines and shows new leaves within weeks, a rewarding sight for beginners.</p></div></div>
+<div class="card"><img src="https://loremflickr.com/600/400/monstera?lock=23" alt="Monstera leaves"><div><h3>Find Your Next Favorite</h3><p>Monstera and rubber plants add bold, glossy leaves that make a living room feel instantly fuller.</p></div></div>
+<div class="card"><img src="https://loremflickr.com/600/400/succulent?lock=24" alt="Small succulents"><div><h3>Discover More Options</h3><p>Succulents and cacti love bright light and very little water, perfect for sunny windows and busy owners.</p></div></div>
+<div class="card"><img src="https://loremflickr.com/600/400/fern,plant?lock=25" alt="Green fern indoors"><div><h3>Explore What’s New</h3><p>Ferns, calatheas and variegated varieties are popular right now, though they prefer steady humidity.</p></div></div>
+<div class="card"><img src="https://loremflickr.com/600/400/gardening,pot?lock=26" alt="Hands potting a plant"><div><h3>Make A Choice Today</h3><p>Pick just one plant to begin with. Learning on a single easy plant builds confidence for the next one.</p></div></div>
+</div></div></section>
+
+<section class="sec alt" id="guide"><div class="wrap">
+<div class="split">
+<img src="https://loremflickr.com/800/600/livingroom,plants?lock=31" alt="Living room with indoor plants">
+<div><h3>Find Your Best Match</h3><p>The right plant depends mostly on the light in your room. North-facing rooms suit shade-tolerant plants, while south-facing windows can handle sun lovers. VegaRise explains how to read your light before you buy.</p><p>A New Choice Awaits in small spaces too. Hanging planters, shelves and window ledges let even a compact apartment hold a lively indoor garden.</p></div>
+</div>
+<div class="split">
+<div><h3>Look What’s New</h3><p>Watching a plant grow is the best part of the hobby. A fresh leaf unfurling or a cutting rooting in water shows that your care routine is working.</p><p>See What’s Inside each guide on VegaRise: light needs, watering schedule, best soil and the right pot size for every plant.</p></div>
+<img src="https://loremflickr.com/800/600/plant,leaf?lock=32" alt="New leaf growing on a plant">
+</div>
+</div></section>
+
+<section class="sec" id="care"><div class="wrap">
+<h2>Four Care Basics</h2>
+<p class="sub">Healthy houseplants come down to a few simple habits.</p>
+<div class="steps">
+<div><h4>Explore New Possibilities</h4><p>Check the light in each room first. Place plants near windows that match their needs.</p></div>
+<div><h4>Your Choice, Your Way</h4><p>Choose pots with drainage holes in a style that fits your home’s look.</p></div>
+<div><h4>Find Something Better</h4><p>Water only when the top layer of soil feels dry. Overwatering is the most common mistake.</p></div>
+<div><h4>Make Every Click Count</h4><p>Read trusted care guides so each new plant gets the right start.</p></div>
+</div>
+</div></section>
+
+<section class="cta" id="join"><div class="wrap">
+<h2>Explore. Choose. Enjoy.</h2>
+<p>Join the readers who learn plant care with VegaRise. Pick a plant, follow the guide and enjoy a greener home.</p>
+<a class="btn" href="#plants">Start Learning</a>
+</div></section>
+
+<footer><div class="wrap">&copy; 2026 VegaRise. All rights reserved.</div></footer>
+</body>
